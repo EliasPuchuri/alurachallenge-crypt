@@ -1,0 +1,77 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Variables */
+:root{
+    --c-background: #F3F5FC;
+    --cf-text: #0A3871;
+    --cf-response: #495057;
+}
+
+/* Generals */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--c-background);
+    font-family: 'Inter', sans-serif;
+}
+
+input,
+button,
+textarea{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* project */
+.header{
+    padding: 0 5%;
+    margin: 1rem 0;
+}
+
+textarea{
+    width: 90%;
+    margin-top: 2rem;
+    background-color: transparent;
+    color: var(--cf-text);
+    font-size: 1.5rem;
+    position: relative;
+    left: 5%;
+    resize: none;
+}
+
+button{
+    padding: 1.2rem 0;
+    border-radius: 24px;
+}
+
+.buttons{
+    color: #495057;
+    width: 90%;
+    position: relative;
+    display: flex;
+    left: 5%;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fa-circle-exclamation{
+    color: #67808E;
+}
+
+textarea:focus{
+    outline: none;
+}
